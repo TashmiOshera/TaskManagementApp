@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor34">#4A90E2</color>
+    <color name="accentColor54">#F39C12</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="blackColor">#000000</color>
+    <color name="editTextBackground">#E0E0E0</color>
+    <color name="holoRed">#F44336</color>
+    <color name="holoGreen">#4CAF50</color>
+    <color name="backgroundColor">#F5F7FA</color>
+    <color name="textColor">#333333</color>
+    <color name="primaryColor11">#4A90E2</color>
+    <color name="primaryLight123">#D9E8FF</color>
+    <color name="primaryDark123">#0056B3</color>
+    <color name="secondaryLight32">#F0F4FF</color>
+    <color name="secondaryDark14">#A3C4E0</color>
+    <color name="accentColor33">#D9E8FF</color>
+    <color name="accentLight">#F3F9FF</color>
+    <color name="background_dark_color">#121212</color>
+    <color name="yellowAccent">#FFC107</color>
+
+    </resources>
+
+
+
+
+

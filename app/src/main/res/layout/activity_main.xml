@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/accentLight">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="24dp"
+        android:text="Let's Manage Your Life"
+        android:textColor="@color/primaryDark123"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Add Task Title -->
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="24dp"
+        android:text="Add Task"
+        android:textColor="@color/primaryColor34"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Task Name Input -->
+    <EditText
+        android:id="@+id/task_name"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Task Name"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <!-- Task Description Input -->
+    <EditText
+        android:id="@+id/task_desc"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Task Description"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <!-- Task Due Date Input -->
+    <EditText
+        android:id="@+id/task_due_date"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Date (e.g., 2024-09-30)"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <!-- Save Task Button -->
+    <Button
+        android:id="@+id/btn_save"
+        android:padding="12dp"
+        android:layout_height="wrap_content"
+        android:layout_width="274dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/yellowAccent"
+        android:text="Save Task"
+        android:textColor="@android:color/white"
+        android:theme="@style/Widget.AppCompat.Button.Colored" />
+
+    <!-- View Tasks Button -->
+    <Button
+        android:id="@+id/btn_view_tasks"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_width="274dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:backgroundTint="@color/holoGreen"
+        android:text="View Tasks"
+        android:textColor="@android:color/white"
+        android:theme="@style/Widget.AppCompat.Button.Borderless" />
+</LinearLayout>

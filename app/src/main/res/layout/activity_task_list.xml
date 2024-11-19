@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/accentLight"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Add Task "
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/primaryDark123"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/edit_search_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add tasks"
+        android:inputType="text"/>
+
+    <ListView
+        android:id="@+id/task_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+
+    <Button
+        android:id="@+id/btn_edit_task"
+        android:layout_width="274dp"
+        android:backgroundTint="@color/yellowAccent"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:layout_height="wrap_content"
+        android:text="Edit Task"/>
+
+    <Button
+        android:id="@+id/btn_delete_task"
+        android:backgroundTint="@color/yellowAccent"
+        android:layout_width="274dp"
+        android:padding="12dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Delete Task"/>
+
+    <Button
+        android:id="@+id/stopwatch"
+        android:layout_width="274dp"
+        android:backgroundTint="@color/yellowAccent"
+        android:padding="12dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Start Timer"/>
+
+    <Button
+        android:id="@+id/reminder_button"
+        android:layout_width="274dp"
+        android:backgroundTint="@color/yellowAccent"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder"/>
+</LinearLayout>

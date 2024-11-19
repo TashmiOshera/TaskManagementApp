@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/accentLight">
+
+    <!-- Title -->
+
+    <!-- Task Name Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:text="Set a Reminder"
+        android:textColor="@color/primaryDark123"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Name:"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Task Name Input -->
+    <EditText
+        android:id="@+id/task_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task name"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text"
+        android:textSize="16sp"/>
+
+    <!-- Time Selection Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:text="Select Time:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <!-- Time Picker -->
+    <TimePicker
+        android:id="@+id/time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <!-- Custom Button -->
+    <Button
+        android:id="@+id/set_reminder_button"
+
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/yellowAccent"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:text="Set Reminder"
+
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/accentLight"
+    android:padding="16dp">
+
+
+    <!-- Title Text -->
+
+    <!-- Centered Content -->
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:text="  StopWatch"
+        android:textColor="@color/primaryDark123"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="501dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Task Name Display -->
+        <TextView
+            android:id="@+id/task_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Enter Your Task"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <!-- Timer Display -->
+
+        <!-- Start Button -->
+        <TextView
+            android:id="@+id/timer_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="00:00"
+            android:textSize="48sp" />
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/holoGreen"
+            android:text="Start"
+            android:textColor="@android:color/white" />
+
+        <!-- Stop Button -->
+        <Button
+            android:id="@+id/stop_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/holoRed"
+            android:text="Stop"
+            android:textColor="@android:color/white" />
+
+        <!-- Reset Button -->
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/accentColor54"
+            android:text="Reset"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

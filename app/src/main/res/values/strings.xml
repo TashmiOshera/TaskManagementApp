@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TodoManager</string>
+    <string name="task_name_hint">Task Name</string>
+    <string name="task_desc_hint">Task Description</string>
+    <string name="task_due_date_hint">Due Date (YYYY-MM-DD)</string>
+    <string name="save_task_button_text">Save Task</string>
+    <string name="edit_task_button_text">Edit Task</string>
+    <string name="delete_task_button_text">Delete Task</string>
+    <string name="task_saved_successfully">Task saved successfully!</string>
+    <string name="task_updated_successfully">Task updated successfully!</string>
+    <string name="task_deleted_successfully">Task deleted successfully!</string>
+    <string name="all_fields_must_be_filled">All fields must be filled!</string>
+    <string name="add_task_title">Lets plan your Day</string>
+    <string name="view_task_list_button_text">View Task List</string> <!-- Fixed this -->
+    <string name="view_Tasks">View Tasks</string>
+    <string name="all_tasks_deleted_successfully">All tasks deleted successfully!</string>
+
+
+</resources>
